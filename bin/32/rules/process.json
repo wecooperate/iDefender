@@ -1,0 +1,38 @@
+{
+  "name": "进程规则组",
+ 
+  "rules": [
+    {
+      "name": "禁止启动的进程",
+      "event": "ProcessCreate",
+      "action": 1,
+      "action_param": "",
+      "matcher": {
+        "child": {
+          "Process": {
+            "or": [
+                { "include": ["ProcessPath", "SogouInput"] },
+                { 
+                  "and": [
+                    { "include": ["ProcessPath", "Google"] },
+                    { "!equal": ["ProcessName", "chrome.exe"] }
+				  ]
+				},	
+                { "equal": ["ProcessName", "software_reporter_tool.exe"] },
+				{ "equal": ["ProcessName", "XLLiveUD.exe"] },
+				{ "equal": ["ProcessName", "SecurityHealthSystray.exe"] },
+				{ "equal": ["ProcessName", "OneDrive.exe"] },
+				{ "equal": ["ProcessName", "MicrosoftEdgeUpdate.exe"] },
+				{ "equal": ["ProcessName", "SecurityHealthService.exe"] },
+				{ "equal": ["ProcessName", "MsMpEng.exe"] },
+				{ "equal": ["ProcessName", "SecurityHealthService.exe"] },
+				{ "equal": ["ProcessName", "msteams.exe"] }
+            ]
+          }
+        }
+      }
+    }
+  ],
+
+  "end": 0
+}

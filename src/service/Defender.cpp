@@ -137,7 +137,7 @@ HRESULT cxDefender::LoadRules(bool Reload)
 	m_RuleEngine = m_MonitorManager.CreateRuleEngine(m_RulePath);
 
 	if (!m_RuleEngine) {
-		SPDLOG_ERROR("laod rule failed");
+		SPDLOG_ERROR("load rule failed");
 		return E_UNEXPECTED;
 	}
 

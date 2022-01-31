@@ -1,0 +1,31 @@
+{
+  "name": "文档守护",
+ 
+  "rules": [
+    {
+      "name": "文档守护",
+      "event": "FileCreate",
+	  "description": "保证文档文件只允许Office打开。实际使用可以调整Office的详细路径或者加上签名规则。",
+      "action": 1,
+      "action_param": "",
+      "matcher": {
+        "child": {
+          "File": {
+            "or": [
+				{ "equal": ["FileExt", ".doc"] },
+				{ "equal": ["FileExt", ".docx"] }
+            ]
+          },
+		  "CurrentProcess" : {
+			"and" : [
+				{ "!equal": ["ProcessName", "explorer.exe"] },
+				{ "!equal": ["ProcessName", "winword.exe"] }
+			]
+		  }
+        }
+      }
+    }
+  ],
+
+  "end": 0
+}
