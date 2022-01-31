@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/base">
+        <file>res/fontawesome-webfont.ttf</file>
+		<file>res/qss/default.css</file>
+        <file>res/add_bottom.png</file>
+        <file>res/add_left.png</file>
+        <file>res/add_right.png</file>
+        <file>res/add_top.png</file>
+        <file>res/branch_close.png</file>
+        <file>res/branch_open.png</file>
+        <file>res/calendar_nextmonth.png</file>
+        <file>res/calendar_prevmonth.png</file>
+        <file>res/checkbox_checked.png</file>
+        <file>res/checkbox_checked_disable.png</file>
+        <file>res/checkbox_parcial.png</file>
+        <file>res/checkbox_parcial_disable.png</file>
+        <file>res/checkbox_unchecked.png</file>
+        <file>res/checkbox_unchecked_disable.png</file>
+        <file>res/down.svg</file>
+        <file>res/radiobutton_checked.png</file>
+        <file>res/radiobutton_checked_disable.png</file>
+        <file>res/radiobutton_unchecked.png</file>
+        <file>res/radiobutton_unchecked_disable.png</file>
+        <file>res/up.svg</file>
+		<file>res/calendar.png</file>
+    </qresource>
+</RCC>
