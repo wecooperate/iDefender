@@ -3,12 +3,12 @@
   Copyright (C) 2012-2022 https://github.com/wecooperate
 
   This file is part of iDefender.
- 
+
   iDefender is free software, you can redistribute it and/or modify
   it under the GNU Affero General Public License Version 3, or any later version.
-  
+
   For other usage or business cooperation, please contact admin@iMonitorSDK.com
-  
+
 --*/
 //******************************************************************************
 #include "stdafx.h"
@@ -86,8 +86,10 @@ cxDefenderDatabase::cxDefenderDatabase(void)
 	for (int i = 0; i < 2; i++) {
 		m_Database.Open(path);
 
-		if (!m_Database)
-			break;
+		if (!m_Database) {
+			DeleteFile(path);
+			continue;
+		}
 
 		if (!m_Database.Execute(sql_CreateTable)) {
 			m_Database.Close();
@@ -99,6 +101,8 @@ cxDefenderDatabase::cxDefenderDatabase(void)
 		m_InsertDetailStatement = m_Database.Prepare(sql_InsertDetail);
 
 		Cleanup();
+
+		break;
 	}
 }
 //******************************************************************************
