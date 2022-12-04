@@ -21,20 +21,20 @@
 
 ## 软件截图
 
-![home](.\doc\home.png)
+![home](./doc/home.png)
 
-![home](.\doc\record.png)
+![home](./doc/record.png)
 
-![home](.\doc\rules.png)
+![home](./doc/rules.png)
 
-![home](.\doc\templates.png)
+![home](./doc/templates.png)
 
-![home](.\doc\rule_process.png)
+![home](./doc/rule_process.png)
 
-![home](.\doc\rule_file_protect.png)
+![home](./doc/rule_file_protect.png)
 
-![home](.\doc\rule_adv.png)
+![home](./doc/rule_adv.png)
 
-![home](.\doc\rule_pro.png)
+![home](./doc/rule_pro.png)
 
-![home](.\doc\about.png)
+![home](./doc/about.png)
