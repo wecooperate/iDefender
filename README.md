@@ -1,3 +1,5 @@
+> For more language support, please refer to the language directory.
+
 ## iDefender
 
 **冰盾 - 主动防御系统**  【专业不流氓】是一款基于[iMonitorSDK](https://imonitorsdk.com/)实现，为专业人士打造的终端、主机主动防御系统。使用冰盾可以帮助您抵制流氓软件、保护电脑安全、提高工作效率。
