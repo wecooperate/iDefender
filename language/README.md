@@ -23,3 +23,5 @@ There may be some inaccuracies in the default English language，you can solve i
 2. 翻译 language.ts 后通过QT工具生成  language.qm
 3. 保存language.qm 到 C:\\ProgramData\\iDefender\\language.qm
 4. 切换到自定义模式 Custom
+
+![home](../doc/language.png)
