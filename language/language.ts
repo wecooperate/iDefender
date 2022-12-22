@@ -153,6 +153,30 @@
         <source>Win7 Due to SHA256 signing problems, the driver cannot be installed normally, if you still need to use it, you can solve it by enabling test signing, or wait for the version update to solve the problem.</source>
         <translation>Win7 因为SHA256签名问题，驱动没法正常安装上，如果仍然需要使用，可以通过开启测试签名的方式解决，或者等待未来版本更新。</translation>
     </message>
+    <message>
+        <source>Process Monitor</source>
+        <translation>进程监控</translation>
+    </message>
+    <message>
+        <source>File Monitor</source>
+        <translation>文件监控</translation>
+    </message>
+    <message>
+        <source>Network Monitor</source>
+        <translation>网络监控</translation>
+    </message>
+    <message>
+        <source>Registry Monitor</source>
+        <translation>注册表监控</translation>
+    </message>
+    <message>
+        <source>Readonly File Monitor</source>
+        <translation>只读文件监控</translation>
+    </message>
+    <message>
+        <source>Enable readonly file monitor, all open file event will be monitored, there will be a large number of events triggered, if the wrong rule is set, it may cause the system to freeze, do you want to continue?</source>
+        <translation>开启只读文件监控，所有打开文件的事件都会被监控到从而产生大量的事件，如果规则设置不好，可能会导致系统卡慢，是否继续开启？</translation>
+    </message>
 </context>
 <context>
     <name>UIMainWindow</name>
@@ -214,7 +238,7 @@
     </message>
     <message>
         <source>Switch language successful, and some translations will take effect after restarted.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -222,6 +246,17 @@
     <message>
         <source>iDefender</source>
         <translation>冰盾 · 主动防御系统</translation>
+    </message>
+</context>
+<context>
+    <name>UIPasswordDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Please input the password</source>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -666,6 +701,10 @@
         <source>Confirm to delete the rule &apos;%1&apos;</source>
         <translation>确定是否删除规则 “%1”</translation>
     </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; color:#08c515;&quot;&gt;Tips: You can open &lt;/span&gt;&lt;a href=&quot;#&quot;&gt;&lt;span style=&quot; font-size:9pt; text-decoration: underline; color:#0055ff;&quot;&gt;iMonitor&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt; color:#08c515;&quot;&gt; to analyze the behavior of software to help you better set the rules.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; color:#08c515;&quot;&gt;使用技巧：通过 &lt;/span&gt;&lt;a href=&quot;#&quot;&gt;&lt;span style=&quot; font-size:9pt; text-decoration: underline; color:#0055ff;&quot;&gt;冰镜&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt; color:#08c515;&quot;&gt; 分析软件的行为，可能帮助您更好的设置规则。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
 </context>
 <context>
     <name>UISelectRuleTemplateView</name>
@@ -692,6 +731,13 @@
     <message>
         <source>Rules</source>
         <translation>预置规则</translation>
+    </message>
+</context>
+<context>
+    <name>UISettingView</name>
+    <message>
+        <source>Settings</source>
+        <translation>设置</translation>
     </message>
 </context>
 </TS>
