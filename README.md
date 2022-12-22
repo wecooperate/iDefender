@@ -19,6 +19,7 @@
 - 联网控制 - 保护个人隐私
 - 行为管理 - 安全上网
 - 病毒拦截 - 云引擎自动拦截病毒
+- 隐私保护 - 保护您的数据不被流氓软件偷偷上传
 
 ## 软件截图
 
@@ -34,8 +35,12 @@
 
 ![home](./doc/rule_file_protect.png)
 
+![home](./doc/rule_privacy.png)
+
 ![home](./doc/rule_adv.png)
 
 ![home](./doc/rule_pro.png)
 
 ![home](./doc/about.png)
+
+
