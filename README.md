@@ -43,4 +43,7 @@
 
 ![home](./doc/about.png)
 
+## 版本更新
+
+请移步 https://imonitorsdk.com/idefender
 
