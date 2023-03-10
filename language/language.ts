@@ -45,7 +45,7 @@
     </message>
     <message>
         <source>Keep computer safe, Resist rogue software, Increase work productivity</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#00aa00;&quot;&gt;专业不流氓 &lt;/span&gt;&lt;span style=&quot; color:#333333;&quot;&gt;抵制流氓软件、保护电脑安全、提高工作效率&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#00aa00;&quot;&gt;专业不流氓 &lt;/span&gt;&lt;span style=&quot; color:#333333;&quot;&gt;拦截漏洞攻击、抵制流氓软件、保护电脑安全、提高工作效率&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -71,10 +71,6 @@
         <translation>查看详细记录</translation>
     </message>
     <message>
-        <source>Find</source>
-        <translation>查找拦截记录</translation>
-    </message>
-    <message>
         <source>...</source>
         <translation></translation>
     </message>
@@ -89,6 +85,46 @@
     <message>
         <source>Records cannot be restored after cleared. Do you want to continue clear?</source>
         <translation>拦截记录清理后将无法恢复，是否继续清理？</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>查找</translation>
+    </message>
+    <message>
+        <source>find</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Edit rule</source>
+        <translation>编辑规则</translation>
+    </message>
+    <message>
+        <source>The rule do not exists.</source>
+        <translation>规则不存在，请到规则列表查看</translation>
+    </message>
+    <message>
+        <source>Add process to trust list</source>
+        <translation>添加进程到全局信任列表</translation>
+    </message>
+    <message>
+        <source>Locate process</source>
+        <translation>定位进程</translation>
+    </message>
+    <message>
+        <source>Locate target</source>
+        <translation>定位目标</translation>
+    </message>
+    <message>
+        <source>Inserted successfully</source>
+        <translation>添加成功</translation>
+    </message>
+    <message>
+        <source>Copy event</source>
+        <translation>复制事件</translation>
+    </message>
+    <message>
+        <source>Copy &apos;%1&apos;</source>
+        <translation>复制 &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
@@ -176,6 +212,14 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Source:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;来源：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#555555;&quot;&gt;Pid:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#555555;&quot;&gt;PID：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#555555;&quot;&gt;Commandline:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#555555;&quot;&gt;命令行：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -463,6 +507,18 @@ p, li { white-space: pre-wrap; }
         <source>Action</source>
         <translation>响应动作</translation>
     </message>
+    <message>
+        <source>ProcessPath</source>
+        <translation>进程路径</translation>
+    </message>
+    <message>
+        <source>ProcessCommandline</source>
+        <translation>进程命令行</translation>
+    </message>
+    <message>
+        <source>EventType</source>
+        <translation>事件类型</translation>
+    </message>
 </context>
 <context>
     <name>UIRuleEditView</name>
@@ -472,7 +528,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The template is a built-in rule and does not require parameters</source>
-        <translation>当前模板为预置规则，不需要额外参数设置</translation>
+        <translation>当前模板为内置规则，不需要额外参数设置</translation>
     </message>
     <message>
         <source>Rule Template:</source>
@@ -517,6 +573,10 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Only record the monitor status, and will not block the event.</source>
         <translation>只会记录匹配规则的监控事件，不会进行拦截。</translation>
+    </message>
+    <message>
+        <source>查看生成的规则</source>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -857,6 +917,21 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
+    <name>UIRuleParamOptions</name>
+    <message>
+        <source>Search</source>
+        <translation>快速查找</translation>
+    </message>
+    <message>
+        <source>find</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>选项</translation>
+    </message>
+</context>
+<context>
     <name>UIRuleParamPathList</name>
     <message>
         <source>Form</source>
@@ -888,11 +963,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Delete</source>
-        <translation>删除规则</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>添加规则</translation>
+        <translation>插入</translation>
     </message>
     <message>
         <source>Please enter a ProcessPath, support wildcard ? * &gt; (for example: *\dir\process.exe)</source>
@@ -945,6 +1020,10 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Please enter a local port (for example: 80)</source>
         <translation>请输入本地端口号，（比如：80）</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>粘贴(多行数据可以拷贝后使用粘贴直接录入）</translation>
     </message>
 </context>
 <context>
@@ -1175,16 +1254,16 @@ p, li { white-space: pre-wrap; }
         <translation>下载规则失败，请检查网络后重试</translation>
     </message>
     <message>
-        <source>Find</source>
-        <translation>查找规则</translation>
-    </message>
-    <message>
         <source>find</source>
         <translation></translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; color:#08c515;&quot;&gt;If you can&apos;t find a rule that meets your needs, you can feedback through &lt;/span&gt;&lt;a href=&quot;https://github.com/wecooperate/iDefender/issues&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0055ff;&quot;&gt;Github Issue&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt; color:#08c515;&quot;&gt; or &lt;/span&gt;&lt;a href=&quot;mailto:admin@iMonitorSDK.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0055ff;&quot;&gt;Email&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt; color:#08c515;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; color:#08c515;&quot;&gt;如果找不到满足您需要的规则，可以将详细的需求通过 &lt;/span&gt;&lt;a href=&quot;https://github.com/wecooperate/iDefender/issues&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0055ff;&quot;&gt; Github Issue &lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt; color:#08c515;&quot;&gt; 或者 &lt;/span&gt;&lt;a href=&quot;mailto:admin@iMonitorSDK.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0055ff;&quot;&gt; 邮件 &lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt; color:#08c515;&quot;&gt;的方式反馈给我们来添加规则。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>查找</translation>
     </message>
 </context>
 <context>
@@ -1241,10 +1320,6 @@ p, li { white-space: pre-wrap; }
         <translation>删除规则</translation>
     </message>
     <message>
-        <source>new rule</source>
-        <translation>新增规则</translation>
-    </message>
-    <message>
         <source>CreateTime</source>
         <translation>创建时间</translation>
     </message>
@@ -1296,13 +1371,25 @@ p, li { white-space: pre-wrap; }
         <source>import default rules</source>
         <translation>导入默认规则</translation>
     </message>
+    <message>
+        <source>find</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>查找</translation>
+    </message>
+    <message>
+        <source>new rule</source>
+        <translation>基于规则模板快速创建一个规则</translation>
+    </message>
+    <message>
+        <source> New Rule</source>
+        <translation> 新建规则</translation>
+    </message>
 </context>
 <context>
     <name>UISelectRuleTemplateView</name>
-    <message>
-        <source>All</source>
-        <translation>全部模板</translation>
-    </message>
     <message>
         <source>Select Template</source>
         <translation>选择规则模板</translation>
@@ -1313,7 +1400,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Rule Template Description:</source>
-        <translation>模板描述：</translation>
+        <translation>模板说明：</translation>
     </message>
     <message>
         <source>Group:</source>
@@ -1321,7 +1408,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Rules</source>
-        <translation>预置规则</translation>
+        <translation>内置规则</translation>
     </message>
     <message>
         <source>Rule Template Params:</source>
@@ -1334,6 +1421,14 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Type</source>
         <translation>类型</translation>
+    </message>
+    <message>
+        <source>All(%1)</source>
+        <translation>全部模板（%1）</translation>
+    </message>
+    <message>
+        <source>(%1)</source>
+        <translation>（%1）</translation>
     </message>
 </context>
 <context>
