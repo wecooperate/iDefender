@@ -6,6 +6,9 @@
 
 软件下载请移步：https://imonitorsdk.com/idefender
 
+微信交流群：
+![微信交流群](./doc/wechat_group.png)
+
 ## 功能特点
 
 - 支持监控拦截多种事件，包括进程、文件、注册表、网络等。
