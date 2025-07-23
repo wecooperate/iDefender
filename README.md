@@ -4,7 +4,7 @@
 
 - **Prevent Ransomware**
 
-​		Detect and block ransomware activities in real time to protect endpoint data and prevent malicious file encryption.
+  Detect and block ransomware activities in real time to protect endpoint data and prevent malicious file encryption.
 
 - **Defend Advanced Threats**
 
@@ -58,6 +58,6 @@
 
 ## Download
 
-English : https://idefender.net
+Website: https://idefender.net
 
 中文官网: https://trustsing.com/idefender
