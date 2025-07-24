@@ -4,27 +4,27 @@
 
 - **Prevent Ransomware**
 
-  Detect and block ransomware activities in real time to protect endpoint data and prevent malicious file encryption.
+  Detect and block ransomware in real time to protect critical files from malicious encryption.
 
 - **Defend Advanced Threats**
 
-  Actively defends against advanced persistent threats (APT), especially attacks such as shellcode injection, DLL side-loading, and remote control.
+  Proactively blocks advanced persistent threats (APTs), including sophisticated attack vectors like shellcode injection, DLL side-loading, and remote control.
 
 - **Block Exploits**
 
-  Intercept attacks exploiting document vulnerabilities or other popular file-less attacks.
+  Blocks exploitation attempts targeting document vulnerabilities and file-less attack vectors.
 
 - **Hardening System**
 
-  Strengthen the operating system and application environment, reduce the attack surface, and enhance overall endpoint security.
+  Hardens the operating system and application environment by controlling persistence mechanisms and other high-risk behaviors, effectively minimizing attack surfaces.
 
 - **Secure Privacy**
 
-  Protect user privacy and sensitive data, preventing information leaks and unauthorized access.
+  Safeguard user privacy and sensitive data by hiding critical files or intercepting unauthorized access attempts, providing multi-layered protection against data leaks.
 
 - **Boost Productivity**
 
-  Automate security protection to minimize security incident disruptions and improve endpoint performance and user experience.
+  Block unnecessary processes and services at launch to prevent resource waste and maintain endpoint performance.
 
 ![home](./doc/main.png)
 
